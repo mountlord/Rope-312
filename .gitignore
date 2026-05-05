@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtualenv
+.venv/
+venv/
+ENV/
+env/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+
+# IDE
+.idea/
+.vscode/
+.idea*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large artifacts (videos/logs)
+*.mp4
+*.mkv
+*.hevc
+*.ts
+*.log
+*.exe
+*.zip
+
+#Custom
+/gitShouldNotSee/
+/logs/
+/.run/
+/models
+data.json
+saved_parameters.json
